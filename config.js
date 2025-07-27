@@ -2,34 +2,34 @@ require('dotenv').config(); // Tambahkan baris ini di paling atas file config.js
 
 module.exports = {
   // Bot Identity
-  botName: "AQUABOT", // Nama bot kamu
-  ownerID: "Dana putra", // Ganti dengan Nama Kamu
+  botName: "ABSOLUTE", // Nama bot kamu
+  ownerID: "Alief Kaka", // Ganti dengan Nama Kamu
 
   // Discord Settings
   token: process.env.DISCORD_BOT_TOKEN, // Mengambil token dari .env
   prefix: "!", // Prefix utama untuk bot ini
 
-  clientId:  "wajib di isi", // ID client bot ini
+  clientId:  "1391356030738239609", // ID client bot ini
 
   //ini pakai kalau misal nya slash / command mau di 1 server aja
-  guildID: "", // ID server tempat bot ini berada
+  guildID: "1336379125413318657", // ID server tempat bot ini berada
 
   //fitru braodcast yang bakal di kirim ke beberapa ch yang di input
   broadcastChannels: [
-        "isi ch nya"
+        "1386772688219017326"
     ],
 
     //auto DL
   autoDownload: {
         // Daftarkan semua ID SERVER tempat fitur ini boleh aktif
         enabledServers: [
-            "ini buat server", // Ganti dengan ID SERVER (GUILD ID) Anda
+            "1336379125413318657", // Ganti dengan ID SERVER (GUILD ID) Anda
             "ini buat server"
         ],
         // (Opsional) Daftarkan ID CHANNEL yang ingin dikecualikan di server tersebut
         excludedChannels: [
-            "ini buat channel", 
-            "ini buat channel"
+            "1336379125413318657", 
+            "1384561242815070328"
         ]
     },
 
@@ -53,16 +53,16 @@ module.exports = {
 
 
 
-  menuPublic: false, // Apakah menu public aktif?
+  menuPublic: true, // Apakah menu public aktif?
 
   // Channel IDs
-  joinChannelId: "wajib di isi", // ID channel join
-  gempaChannelId: "wajib di isi", // ID channel gempa
-  growgardenChannelId: "wajib di isi", // ID channel growgarden
+  joinChannelId: "1386907338828419082", // ID channel join
+  gempaChannelId: "1384561242815070328", // ID channel gempa
+  growgardenChannelId: "1384561242815070328", // ID channel growgarden
   channelIds: {
-    rules: "wajib di isi", // ID channel rules
-    pricelist: "wajib di isi", // ID channel pricelist
-    ticket: "wajib di isi", // ID channel ticket
-    queue: "wajib di isi", // ID channel queue
+    rules: "1386759038347247746", // ID channel rules
+    pricelist: "1384561242815070328", // ID channel pricelist
+    ticket: "1384561242815070328", // ID channel ticket
+    queue: "1384561242815070328", // ID channel queue
   },
 };
